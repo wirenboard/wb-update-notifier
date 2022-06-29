@@ -1,0 +1,13 @@
+Source: wb-update-notifier
+Maintainer: Roman Kochkin <roman.kochkin@wirenboard.ru>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 10)
+
+Package: wb-update-notifier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks:
+Description: Wiren Board update notifier
+

@@ -1,0 +1,4 @@
+debian/99update-notifier etc/apt/apt.conf.d
+debian/11periodic etc/apt/apt.conf.d
+debian/91-updates-available etc/update-motd.d
+update-motd-updates-available usr/lib/wb-update-notifier
