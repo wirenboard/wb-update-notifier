@@ -1,0 +1,14 @@
+#!/bin/bash
+
+UPDATES_AVAILABLE_STAMP=/var/lib/wb-update-notifier/updates-available
+TOTAL_UPDATE_AVAILABLE=`apt-get -s upgrade | grep Inst | wc -l`
+
+if (( $TOTAL_UPDATE_AVAILABLE > 0 ))
+then
+	echo -e $TOTAL_UPDATE_AVAILABLE "package updates are available; type 'apt update && apt upgrade' to update them.\n" > $UPDATES_AVAILABLE_STAMP
+else
+	if [ -e $UPDATES_AVAILABLE_STAMP ]
+	then
+		rm $UPDATES_AVAILABLE_STAMP
+	fi
+fi

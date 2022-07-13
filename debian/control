@@ -1,0 +1,14 @@
+Source: wb-update-notifier
+Maintainer: Roman Kochkin <roman.kochkin@wirenboard.ru>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 10)
+Homepage: https://github.com/wirenboard/wb-update-notifier
+
+Package: wb-update-notifier
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, apt (>= 1.4.10)
+Description: Wiren Board update notifier
+             Displaying information about the need to update obsolete packages to the WirenBoard console banner.
+

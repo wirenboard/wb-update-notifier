@@ -1,0 +1,5 @@
+wb-update-notifier (0.1.0) unstable; urgency=medium
+
+  * Added display of information about the need to update obsolete packages on the banner of the WirenBoard console
+
+ -- Roman Kochkin <roman.kochkin@wirenboard.ru>  Wed, 29 Jun 2022 13:09:00 +0300

@@ -1,0 +1,2 @@
+DPkg::Post-Invoke {"/usr/lib/wb-update-notifier/update-motd-updates-available 2>/dev/null || true";};
+APT::Update::Post-Invoke-Success {"/usr/lib/wb-update-notifier/update-motd-updates-available 2>/dev/null || true";};
