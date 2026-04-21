@@ -1,3 +1,9 @@
+wb-update-notifier (0.1.1) stable; urgency=medium
+
+  * Update package maintainer, fix lintian
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Tue, 21 Apr 2026 17:00:00 +0400
+
 wb-update-notifier (0.1.0) unstable; urgency=medium
 
   * Added display of information about the need to update obsolete packages on the banner of the WirenBoard console
