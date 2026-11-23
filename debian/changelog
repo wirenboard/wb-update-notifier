@@ -1,3 +1,11 @@
+wb-update-notifier (0.1.2) stable; urgency=medium
+
+  * Add LICENSE (MIT-WB): Wiren Board as the copyright holder, 2022 as the first
+    publication year, use restricted to Wiren Board equipment
+  * Fill debian/copyright in the DEP-5 format
+
+ -- Ekaterina Volkova <ekaterina.volkova@wirenboard.com>  Mon, 23 Nov 2026 13:56:05 +0000
+
 wb-update-notifier (0.1.1) stable; urgency=medium
 
   * Update package maintainer, fix lintian
